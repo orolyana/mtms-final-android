@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "335551864256",
+    "firebase_url": "https://menhariya-859a3.firebaseio.com",
+    "project_id": "menhariya-859a3",
+    "storage_bucket": "menhariya-859a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335551864256:android:ec7dd05bb78081d7",
+        "android_client_info": {
+          "package_name": "com.example.ibra.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335551864256-kgncfifkfoko0b3lj1g527ttkh921i9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ibra.project",
+            "certificate_hash": "f3710fe3d8ca5c4a251c375f73be32bd40b641b3"
+          }
+        },
+        {
+          "client_id": "335551864256-eoc1thiad584sjuvomb136luhibbr3n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNyGvxZqbnDsIqKiB4DYLOaRJh4fSQU94"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335551864256-eoc1thiad584sjuvomb136luhibbr3n5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

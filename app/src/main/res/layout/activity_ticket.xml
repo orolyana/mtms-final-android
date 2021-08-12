@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgg"
+    android:layout_height="match_parent"
+    tools:context=".Ticket">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Your Ticket"
+            android:textColor="#fff"
+            android:layout_marginLeft="50dp"
+
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:id="@+id/show_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Addis Ababa"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:id="@+id/tick1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="TO"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:id="@+id/show_destination1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hawasa"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/show_start1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:id="@+id/tick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="TO"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:id="@+id/show_destination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            />
+    </LinearLayout>
+
+
+</android.support.v7.widget.LinearLayoutCompat>
