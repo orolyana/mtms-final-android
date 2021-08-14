@@ -15,7 +15,7 @@ public class Ticket extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ticket);
+        setContentView(R.layout.activity_tickets);
 
        showstart=findViewById(R.id.show_start);
         showdestination=findViewById(R.id.show_destination);
